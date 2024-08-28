@@ -9,12 +9,10 @@ def opcoes_gerais():
 def pular_linha():
     print()
 
-# Definindo os produtos em estoque
 galvanotek = ['GA90', 'G695', 'G697', 'FPN250', 'G32MM']
 hiperpack = ['H742', 'H10', 'H20', 'H50APR', 'H56MPR']
 niagara = ['MUD1', 'MUD2', 'MUD3', 'MUD4', 'MUD5']
 
-# Loop principal
 while True:
     opcoes_gerais()
     escolha_opcao_geral = str(input('> ')).strip()
@@ -39,6 +37,10 @@ while True:
         if adicionar_produto_marca == 'HIPERPACK' or adicionar_produto_marca == 'H':
             hiperpack.append(adicionar_produto_codigo)
             print(f'Produto {adicionar_produto_codigo} adicionado à marca HiperPack.')
+        
+        if adicionar_produto_marca == 'NIAGARA' or adicionar_produto_marca == 'N':
+            hiperpack.append(adicionar_produto_codigo)
+            print(f'Produto {adicionar_produto_codigo} adicionado à marca Niagara.')
 
     elif escolha_opcao_geral == '4':
         print('Saindo do programa.')
