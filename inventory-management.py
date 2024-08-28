@@ -21,7 +21,7 @@ while True:
 
     if escolha_opcao_geral == '1':
         print('Galvanotek:', galvanotek)
-        print('Hiperpack:', hiperpack)
+        print('HiperPack:', hiperpack)
         print('Niagara:', niagara)
         pular_linha()
 
@@ -35,6 +35,10 @@ while True:
         if adicionar_produto_marca == 'GALVANOTEK' or adicionar_produto_marca == 'G':
             galvanotek.append(adicionar_produto_codigo)
             print(f'Produto {adicionar_produto_codigo} adicionado à marca Galvanotek.')
+
+        if adicionar_produto_marca == 'HIPERPACK' or adicionar_produto_marca == 'H':
+            hiperpack.append(adicionar_produto_codigo)
+            print(f'Produto {adicionar_produto_codigo} adicionado à marca HiperPack.')
 
     elif escolha_opcao_geral == '4':
         print('Saindo do programa.')
