@@ -56,7 +56,6 @@ while True:
         if remover_produto_marca == 'Hiperpack' or remover_produto_marca == 'H':
             hiperpack.remove(remover_produto_codigo)
             print(f'Produto {remover_produto_codigo} removido da lista "HiperPack".')
-
     
     elif escolha_opcao_geral == '4':
         print('Saindo do programa.')
