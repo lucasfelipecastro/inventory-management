@@ -14,7 +14,8 @@ connect.commit()
 products = {
     'galvanotek': ['GA90', 'G695', 'G697'],
     'niagara': ['MUD1', 'MUD2', 'MUD3'],
-    'hiperpack': ['H742', 'H10', 'H20']
+    'hiperpack': ['H742', 'H10', 'H20'],
+    'goldpack': ['3L', '5L', '7L', '12L', 'PESC15', '17L', '28L']
 }
 
 for brand, codes in products.items(): 
