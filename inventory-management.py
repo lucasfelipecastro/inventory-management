@@ -10,3 +10,9 @@ cursor.execute('''
 ''')
 
 connect.commit()
+
+products = {
+    'galvanotek': ['GA90', 'G695', 'G697'],
+    'niagara': ['MUD1', 'MUD2', 'MUD3'],
+    'hiperpack': ['H742', 'H10', 'H20']
+}
