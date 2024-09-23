@@ -16,3 +16,12 @@ products = {
     'niagara': ['MUD1', 'MUD2', 'MUD3'],
     'hiperpack': ['H742', 'H10', 'H20']
 }
+
+for brand, codes in products.items(): 
+    for code in codes:
+        cursor.execute('''
+            INSERT INTO Products (marca, codigo) VALUES (?, ?)
+        ''', (brand, code))
+        
+connect.commit()
+connect.close()
