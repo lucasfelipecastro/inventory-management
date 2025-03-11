@@ -27,12 +27,12 @@ To run this project, you will need to have Python and SQLite3 installed on your 
 
 1. **Clone this repository**:
    ```bash
-   git clone <repository URL>
-   cd <repository name>
+   git clone https://github.com/lucasfelipecastro/inventory-management.git
+   cd inventory-management
 
 2. **Run the script**:
    ```bash
-   python <filename>.py
+   python inventory-management.py
 This will create an inventory.db SQLite database file and insert the predefined product data into the Products table.
 
 ## Features
